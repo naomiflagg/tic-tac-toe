@@ -3,7 +3,6 @@
 class TicTacToeGame
   require_relative('player.rb')
   require_relative('board.rb')
-  require 'pry'
 
   attr_accessor :current_player, :game_board
 

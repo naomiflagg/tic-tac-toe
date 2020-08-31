@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 class Board
-  require 'pry'
   attr_accessor :board
 
   def initialize

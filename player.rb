@@ -1,5 +1,4 @@
 class Player
-  require 'pry'
 
   attr_accessor :token, :name
 
