@@ -10,10 +10,7 @@ class TicTacToeGame
     @player1 = Player.new('X', 'Player 1')
     @player2 = Player.new('O', 'Player 2')
     @current_player = @player1
-    begin_game
   end
-
-  private
 
   def begin_game
     puts 'Welcome to Tic-Tac-Toe! Player 1, your token '\
@@ -21,6 +18,8 @@ class TicTacToeGame
     @game_board = Board.new
     play_turn
   end
+
+  private
 
   def play_turn
     loop do
@@ -77,4 +76,5 @@ class TicTacToeGame
   end
 end
 
-TicTacToeGame.new
+#game = TicTacToeGame.new
+#game.begin_game
